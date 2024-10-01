@@ -5,7 +5,7 @@ simple docker file
 docker build -t appium-server .
 
 
-#Second step
+# Second step run docker via external port 
 docker run -d -p 4723:4723 --name my-appium-server appium-server
 
 
